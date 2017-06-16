@@ -1,0 +1,5 @@
+http://git-scm.com
+http://git-scm.com/download/mac
+
+which git
+git --version

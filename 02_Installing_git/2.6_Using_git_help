@@ -1,0 +1,14 @@
+TERMINAL:
+git help
+
+git help log      - info o log
+
+(przewijanie wielu stron)
+  f       - forward
+  b       - backward
+  space   - next page
+  q       - quit
+
+Inny sposób na otworzenie manuala
+
+  man git-log

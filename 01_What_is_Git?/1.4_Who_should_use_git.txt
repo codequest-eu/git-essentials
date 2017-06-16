@@ -1,0 +1,12 @@
+Anyone wanting to track edits
+  - review a history log of changes made
+  - view differences between versions
+  - retrieve old version
+
+Anyone needing to share changes with collaborators
+Anyone not afraid of command-line tools
+Programmers and developers
+
+Not as useful for tracking non-text files
+  - images, movies, music, fonts
+  - word processing files, spreadsheets, PDFs

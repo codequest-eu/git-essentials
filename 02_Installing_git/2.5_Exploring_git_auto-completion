@@ -1,0 +1,17 @@
+There instructions are for Mac and Unix only
+Download from Github
+
+cd ~
+curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+
+Rename file
+
+mv ~/git-completion.bash  ~/.git-completion.bash
+
+Edit ~/.bash_profile
+
+CODE:
+
+if [ -f ~/.git-completion.bash ]; then 
+  source ~/.git-completion.bash
+fi

@@ -1,0 +1,6 @@
+- Keeps track of changes
+    - especially text changes
+    - version 1, version 2, version 3
+
+- Version control system (VCS)
+- Source code management (SCM)

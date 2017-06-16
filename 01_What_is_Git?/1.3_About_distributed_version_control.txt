@@ -1,0 +1,23 @@
+distributed version control
+- different users (or team of users) maintain their own repositories, instead of working from a central repository
+- changes are stored as "change sets" or "patches" (track changes, not versions), different from cvs and SVN, which track version
+- change sets can be exchanged between repositories
+  - "merge in change sets" or "apply patches"
+
+No single master repository; jus many working copies
+  - each with their own combination of change sets
+
+Imagine changes to a document as sets A,B,C,D,E,F
+  - Repo 1: A, B, C, D, E, F
+  - Repo 2: A, B, C, D
+  - Repo 3: A, B, C, D
+  - Repo 4: A, B, E, F
+
+No need to communicate with a central serve
+  - faster
+  - no network access required
+  - no single failure point
+
+Encourages participation and forking of projects
+  - developers can work independently 
+  - submit change sets for inclusion or rejection
