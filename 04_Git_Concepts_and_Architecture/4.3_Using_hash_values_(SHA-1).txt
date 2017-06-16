@@ -1,0 +1,18 @@
+Jeżeli commitowałem trzy różne pliki do repozytorium to one tam istnieją obok siebie
+jeśli w repo są trzy pliki (a), (b), (c) symbolizują one trzy schnapshoty
+
+Git generates a checksum for each change set
+    - checksum algorithms convert data into a simple number
+    - same data always equals same checksum
+Data integity is fundamental
+    - changing data would change checksum
+Git uses SHA-1 hash algotithm to create checksums
+    - 40-character hexadeximal string (0-9, a-f)
+    - Example: 5c15e8bd540c113cd2d9eac6f64cacbc5ff6fe9c
+
+Suma kontrolna wyświetlana jest w log (git log)
+
+Każdy plik w rep symbilizuje snapshot
+
+(Snapshot A) is a parent for (Snapshot B)
+(Snapshot B) is a parent for (Snapshot C)

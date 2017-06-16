@@ -1,0 +1,49 @@
+HEAD
+    - pointer to "tip" of current branch in repository
+    - laste state of repository, what was lat checked out
+    - points to parent of next commit
+            - where writing commits takes place
+
+Dobrą ilustracją jest głowica w magnetofonie, podczas narywnia głowica stoi w miejscu, a taśma się przesówa.
+Gdy wciśniemy stop nagrywanie przestaje się odbywać, a taśma dalej się przesówa.
+Gdy wciśniemy nagyrwanie, nagrywnaie uruchamia się w innym miejscu.
+
+Head jest zawsze ostatnim commitem
+    przykładowo:
+
+
+    (Snapshot A) (Snapshot B) (Snapshot C)
+                                  .
+                                 /|\
+                                  |
+                                  |
+                               H E A D
+
+
+
+Jesli stworzymy nowy branch i w nim wykonamy kolejne commity to head-pointer przesunie się do tego nowego brancha
+Natomiast jeśli przełączymy się na stary branch, head-point zostanie przeniesony na aktualny branch,
+jest jak taka głowica do nagrywania, tam gdzie się pojawia będzie generowała kolejne Snapshot-y
+
+    [master]
+    (Snapshot A) (Snapshot B) (Snapshot C)
+
+    [new_branch]
+    (Snapshot D) (Snapshot E) (Snapshot F)
+                                      .
+                                     /|\
+                                      |
+                                      |
+                                   H E A D
+
+
+
+w folderze .git znajduje się plik HEAD, można go podejrzeć komendą:
+
+    cat HEAD        - pokaże ścieżkę commita na którym aktualnie znajduje się head-pointer,
+                      jeśli otworzymy tą ścieżkę, to znajdziemy w niej hash value danego commita
+
+
+można jeszcze w inny sposób wyświetlić info na którym commicie jest aktualnie HEAD:
+
+    git log HEAD

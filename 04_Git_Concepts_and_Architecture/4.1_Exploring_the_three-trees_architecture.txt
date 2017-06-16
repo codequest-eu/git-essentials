@@ -1,0 +1,19 @@
+two-tree architecture
+
+        REPOSITORY
+     ->     |          ->
+  commit    |       checkout
+            |
+         WORKING
+
+Git uses three-tree architecture
+
+        REPOSITORY
+   ->       |    -> - - -
+git commit  |            |
+            |            |
+       staging index     |
+   ->       |            |
+git add     |            |
+            |    <- - - -
+         WORKING

@@ -1,0 +1,12 @@
+new file.txt
+
+    - git add file.txt      (a)                 - dodaje plik file.txt do staging index
+    - git commit            (a)                 - dodaje plik do repository
+
+
+edited file.txt
+    - plik został zmieniony na:
+    file.txt                (b)
+    - git add file.txt      (b)                 - plik dodawany jest to staging index i nadpisuje wersje poprzednią czyli (a)
+    - git commit            (a b)               - plik dodawany jest to repository, ale w repozytorium istnieją te dwa pliki
+
