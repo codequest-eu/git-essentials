@@ -22,7 +22,7 @@ Head jest zawsze ostatnim commitem
 
 
 Jesli stworzymy nowy branch i w nim wykonamy kolejne commity to head-pointer przesunie się do tego nowego brancha
-Natomiast jeśli przełączymy się na stary branch, head-point zostanie przeniesony na aktualny branch,
+Natomiast jeśli przełączymy się na master, head-point zostanie również zostanie przeniesiony na master,
 jest jak taka głowica do nagrywania, tam gdzie się pojawia będzie generowała kolejne Snapshot-y
 
     [master]
