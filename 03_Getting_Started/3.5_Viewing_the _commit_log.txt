@@ -1,0 +1,10 @@
+git log                     - wyświetli info o obecnych commitach
+
+git help log                - wyświetli menu ze wszystkimi dostępnymi opcjami dla git log
+
+git log -n 1                - zwróci określoną liczbę (number) info o commitach w tym przypadku
+                              tylko o jednym comicie
+
+git log --since=2012-06-15  - zwróci info o commitach od określonej daty
+
+git log --author="Mateusz"  - zwróci info o commitach tylko określonego autora

@@ -1,0 +1,9 @@
+git add .                       - dodaje wszystkie zmiany z obecnego directory
+git commit -m "first commit"    - dodaje commit do repositorium
+
+
+
+FLOW:
+- make changes
+- add the changes
+- commit changes to the repository with a message

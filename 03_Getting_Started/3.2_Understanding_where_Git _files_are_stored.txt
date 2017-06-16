@@ -1,0 +1,2 @@
+ls -la                  - pokaże wszystkie pliki znajdujące się w directory
+ls -la .git             - pokaże wszystkie pliki w git workspace
