@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e98c9e9-9439-4243-87dd-269d4262ba79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.1_Adding_files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.2_Editing_files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.3_Viewing_changes_with_diff.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.4_Viewing_only_staged_changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.5_Deleting_files.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Making_Changes_to_Files/5.6 _Moving_and_renaming_files.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.4_Working_with_the_HEAD_pointer.txt" afterPath="$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.4_Working_with_the_HEAD_pointer.txt" />
     </list>
     <ignored path="02_Git_Essential_Training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +36,8 @@
       <file leaf-file-name="4.1_Exploring_the_three-trees_architecture.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.1_Exploring_the_three-trees_architecture.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -58,11 +63,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.4_Working_with_the_HEAD_pointer.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.4_Working_with_the_HEAD_pointer.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.4_Working_with_the_HEAD_pointer.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
+            <state relative-caret-position="31">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.1_Adding_files.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.1_Adding_files.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.2_Editing_files.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.2_Editing_files.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.3_Viewing_changes_with_diff.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.3_Viewing_changes_with_diff.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.4_Viewing_only_staged_changes.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.4_Viewing_only_staged_changes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.5_Deleting_files.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.5_Deleting_files.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.6 _Moving_and_renaming_files.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.6 _Moving_and_renaming_files.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -85,6 +150,12 @@
         <option value="$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.2_The_git_workflow.txt" />
         <option value="$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.3_Using_hash_values_(SHA-1).txt" />
         <option value="$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.4_Working_with_the_HEAD_pointer.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.1_Adding_files.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.2_Editing_files.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.3_Viewing_changes_with_diff.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.4_Viewing_only_staged_changes.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.5_Deleting_files.txt" />
+        <option value="$PROJECT_DIR$/05_Making_Changes_to_Files/5.6 _Moving_and_renaming_files.txt" />
       </list>
     </option>
   </component>
@@ -93,11 +164,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="63" />
+    <option name="y" value="712" />
     <option name="width" value="1855" />
-    <option name="height" value="1137" />
+    <option name="height" value="488" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,6 +206,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="02_Git_Essential_Training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02_Git_Essential_Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02_Git_Essential_Training" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05_Making_Changes_to_Files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -220,15 +308,15 @@
       <workItem from="1497640656250" duration="25000" />
       <workItem from="1497640846608" duration="73000" />
       <workItem from="1497646992548" duration="4051000" />
-      <workItem from="1497651263538" duration="25000" />
+      <workItem from="1497651263538" duration="2297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4174000" />
+    <option name="totallyTimeSpent" value="6446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="63" width="1855" height="1137" extended-state="0" />
+    <frame x="0" y="712" width="1855" height="488" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25261998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -237,7 +325,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -358,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.1_Exploring_the_three-trees_architecture.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.2_The_git_workflow.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -384,8 +464,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.4_Working_with_the_HEAD_pointer.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
+        <state relative-caret-position="31">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Git_Concepts_and_Architecture/4.1_Exploring_the_three-trees_architecture.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.3_Viewing_changes_with_diff.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.2_Editing_files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.1_Adding_files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.4_Viewing_only_staged_changes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.5_Deleting_files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Making_Changes_to_Files/5.6 _Moving_and_renaming_files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
           <folding />
         </state>
       </provider>

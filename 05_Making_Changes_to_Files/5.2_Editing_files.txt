@@ -1,0 +1,2 @@
+Czasami nie chcemy wprowadzać zmian do repozytorium, dlatego jeśli dodamy do staging pliki i je skomintujemy nie dodane
+pliki będą przy wywołaniu komendy git status wyświetlane nadalaj jako nie dodane

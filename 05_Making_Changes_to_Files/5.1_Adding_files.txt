@@ -1,0 +1,3 @@
+git status              - zwraca info o różnicę między staging index, a repozytorium
+
+Materiał opowiada ogólnie o procesach zachodzących podczas dodawania plików do repo

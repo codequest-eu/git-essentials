@@ -1,0 +1,3 @@
+git diff                        - zwróci info o różnicach w plikach między repozytorium a working version
+
+git diff (nazwa_pliku)          - zwróci info o różnicy danego pliku

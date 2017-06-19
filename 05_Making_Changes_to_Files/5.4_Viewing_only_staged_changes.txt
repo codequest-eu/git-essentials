@@ -1,0 +1,4 @@
+Jeśli dodam plik do staging
+
+
+git diff --staged               - zwróci różnicę między staging a repo

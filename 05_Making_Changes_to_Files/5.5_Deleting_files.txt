@@ -1,0 +1,14 @@
+Najprostszy sposób aby usunąć pliki z repo, to przeniesienie pliku do kosza w working_version a następnie commitowanie
+wszystkich zmian do repo
+
+lub
+
+git rm file_to_delete.txt           - usuwa plik dodajac info do staging że pilk został usunięty
+
+lub
+
+łatwiejszy sposób na usnięcie to usnięcie pliku przez system git-a
+
+git rm file_to_delete2.txt          - usuwa plik premanentnie i przenosi zmiany na staging
+
+-> następnie bez problemu można commitować zmiany

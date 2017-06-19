@@ -1,0 +1,19 @@
+Jeśli zmienię nazwę pliku w katalogu, to git uzna to jako usnięcie i stworzenie nowego pliku którego nie śledzi
+
+W takiej sytuacji warto zastosować nastepującą kombinację
+
+- (zmiana nazwy pliku z first_time.txt na primary_file.txt)
+- git add primary_file.txt
+- git rm first_file.txt
+
+
+
+Jesli chcę zmienić nazwę po przez system git:
+
+- git mv second_file.txt secondary_file.txt             (zmieni nazwę pliku z second_file.txt na secondary_file.txt)
+
+
+
+W tym przypadku mv znaczy move czyli można to zastosować również do zmiany lokalizacji pliku:
+
+- git mv third_file file_directory/third_file.txt       (przeniesie plik do nowej lokalizacji)
