@@ -1,0 +1,19 @@
+- git status
+- git mv tours/tour_detail_backpask.html tours/tour_detail_backpack_cal.html
+- git status
+- (zmieniam liniki w plikach)
+- git status
+
+Teraz zmieniłem nazwy plików oraz zmieniłem dane w plikach, to spowodowało, że powstała różnica miedzy
+working directory a stagingiem
+
+Dlatego przed commitem należy pododawać zmiany na staging
+
+Natomiat jak edytuje jeden rodzaj pliku: "np torurs.html", a potem "contact.html" to najlepiej takie zamiany
+dodawać do repo za pomocą oddzielnych commitów
+
+W takich sytacjach gdzie mam coś dodane na stagingu oraz wprowadzone zmiany na working directory wtedy dobrze jest
+skorzystać z następujacej kolejności dodawania commitów:
+
+git commit -m "coś tam"
+git commit -am "coś tam jeszcze"

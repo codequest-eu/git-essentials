@@ -1,0 +1,14 @@
+git init
+ls -la
+git status
+
+git log (fatal: bad default revision 'HEAD')
+
+git add .
+git status
+git commit -m "Initial commit"
+
+git log
+
+
+Można posiadać wiele repozytorów odzielnych dla każdego projektu

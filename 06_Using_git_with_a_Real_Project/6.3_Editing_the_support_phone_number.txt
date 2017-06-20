@@ -1,0 +1,29 @@
+- zmienił coś w plikach, następnie sprawdził różnicę miedzy plikami za pomocą
+
+git diff
+
+
+następnie między stronami można się przełączać za pomocą       B       i       F
+
+
+Aby włączyć zawiajnie wieszy podczas wyświetlania git diff należy;
+
+        minus sign (-) + shift + s + return
+
+
+Go to BACK:
+
+        -S return
+
+Aby wyświetlić bezpośrednio różnice:
+
+        git diff --color-words contact.html             - pokoloruje i zaznaczy tylko te miejsca które sie różnią
+
+
+Aby przenieść pliki z working directory do repo
+
+        git commit -a
+
+To samo można zrobić z wiadomością, należy używać rozważnie i delikatnie
+
+        git commit -am "text"
