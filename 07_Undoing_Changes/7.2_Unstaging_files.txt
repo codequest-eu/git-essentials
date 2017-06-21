@@ -1,0 +1,6 @@
+Jeśli wprowadzimy zmiany na staging i chcemy je cofnąć można zrobić to w nastepujący sposób:
+
+    - git reset HEAD resources.html                 - przywróci zmiany na plik resources.html i sprowadzi je spowrotem na
+                                                      working directory,
+
+                                                    - czyli w skrócie jest to takie sprowadzenie zmian ze stagingu na working dir

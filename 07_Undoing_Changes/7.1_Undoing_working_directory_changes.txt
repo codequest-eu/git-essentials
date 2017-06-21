@@ -1,0 +1,3 @@
+Jeśli wprowadzimy jakieś zmiany na working directory można przywrócić wersję z repozytorium
+
+    - git checkout -- index.html                - pobierze tylko wskazany plik bez zmiany brancha

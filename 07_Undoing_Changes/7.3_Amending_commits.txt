@@ -1,0 +1,16 @@
+Każdy commit zmienia hash value w meta data
+
+Jednak jest możliwość zmienienia ostatniego commitu, tak jakby podmienienia
+
+git add resources.html
+git commit -m "rearrange the items to bring on a trip"
+git log
+(ostatni commit jest na górze)
+
+(wprowadzamy zmiany w resources.html
+git add resources.html
+git commit --amend -m "rearrange the items to bring on a trip"
+(teraz ostatni comit jest dokładnie taki sam jak ostatni)
+
+git commit --amend -m "another commet"
+(teraz ostatni commit bedzie zawierał komentarz z ostatniej zmiany)
