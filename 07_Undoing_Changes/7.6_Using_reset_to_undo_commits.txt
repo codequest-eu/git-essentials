@@ -1,0 +1,23 @@
+git reset
+
+Podczas normalnej pracy, git za każdym razem przeniosi pointer HEAD na ostatnio commit,
+
+Wyobraźmy sobie następującą sytuację, nagrywamy przez godzinę audio, gdy naciśniemy STOP a potem REC nagrywanie zacznie
+się od tego samego momentu,
+co jesli będziemy chcieli cofnąć nagrywanie 10 minut do tyłu i nadpisać 10 minut,
+
+Tak samo działa reset w git, po prostu przesuwa pointer HEAD
+
+
+
+Typy resetów:
+
+--soft
+        does not change staging index or working directory
+
+--mixed (default)
+        changes staging index to match repository
+        does not change working directory
+
+--hard
+        changes staging index and working directory to match repository
