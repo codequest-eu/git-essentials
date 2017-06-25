@@ -98,17 +98,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.4_Retrieving_old_version.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="7.4_Retrieving_old_version.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/07_Undoing_Changes/7.4_Retrieving_old_version.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="475">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.5_Reverting_a_commit.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7.5_Reverting_a_commit.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07_Undoing_Changes/7.5_Reverting_a_commit.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/07_Undoing_Changes/7.1_Undoing_working_directory_changes.txt" />
         <option value="$PROJECT_DIR$/07_Undoing_Changes/7.2_Unstaging_files.txt" />
         <option value="$PROJECT_DIR$/07_Undoing_Changes/7.3_Amending_commits.txt" />
-        <option value="$PROJECT_DIR$/07_Undoing_Changes/7.4_Retrieving_old_version.txt" />
         <option value="$PROJECT_DIR$/07_Undoing_Changes/7.5_Reverting_a_commit.txt" />
+        <option value="$PROJECT_DIR$/07_Undoing_Changes/7.4_Retrieving_old_version.txt" />
       </list>
     </option>
   </component>
@@ -314,12 +314,12 @@
       <workItem from="1497979832873" duration="2319000" />
       <workItem from="1498076527679" duration="910000" />
       <workItem from="1498337324687" duration="55000" />
-      <workItem from="1498387734709" duration="683000" />
+      <workItem from="1498387734709" duration="745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10525000" />
+    <option name="totallyTimeSpent" value="10587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="383" width="1855" height="803" extended-state="0" />
@@ -728,18 +728,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_Undoing_Changes/7.4_Retrieving_old_version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_Undoing_Changes/7.5_Reverting_a_commit.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Undoing_Changes/7.4_Retrieving_old_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding />
         </state>
       </provider>

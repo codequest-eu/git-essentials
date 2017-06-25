@@ -22,3 +22,5 @@ Cofnięcie pobrania zmian na pliku
 (pobierze aktualną wersję z repo)
 - git status
 (wyświetli brak wprowadzonych zmian)
+
+test
