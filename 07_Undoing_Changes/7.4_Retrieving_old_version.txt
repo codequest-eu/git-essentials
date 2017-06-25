@@ -23,4 +23,3 @@ Cofnięcie pobrania zmian na pliku
 - git status
 (wyświetli brak wprowadzonych zmian)
 
-test
