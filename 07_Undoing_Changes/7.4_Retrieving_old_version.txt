@@ -1,0 +1,17 @@
+Aby przywrócić dany commit:
+- git log
+(kopiuje hash code dla comitu który chcę przywrócić)
+- git checkout (hash_code)
+- git status
+(teraz commit został przeniesiony do staging)
+- git diff --stage
+(pokaże różnice miedzy stage a working directory)
+
+
+Aby cofnąć przywrócenie danego commitu:
+- git status
+(pokazuje różnice miedzy staging a repo)
+- git reset HEAD resources.html (dowolna nazwa pliku lub bez nazwy pliku)
+- git checkout -- resources.html (dowolny plik lub bez pliku)
+- git status
+(teraz pokaże puste drzewo)

@@ -1,0 +1,15 @@
+Usuwanie commitu z repo
+
+- git log
+(wybieram który commit chcę usunąć)
+
+- git revert (hash_code, np da38660bbcd206a9aa)         - wystarczy cześć hash_code
+
+- wyskoczy popup z informacja o tym że commit jest usuwany i można edytować wiadomość przy usuwaniu
+
+- git status
+(pusto)
+
+- git log
+(pokaże że commit został usunięty)
+
