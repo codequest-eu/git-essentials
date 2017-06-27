@@ -1,0 +1,24 @@
+cofanie usunięcia commitu
+
+- aby móc cofać usuwanie trzeba mieć gdzieś zapisany hash_code commitu
+
+-cat .git/HEAD
+ref: refs/heds/master
+cat .git/refs/heads/master
+(zwróci hash_code commitu na który obecnie wskazuje HEAD)
+(sprawdzam na co wskazuje HEAD)
+
+- git reset --soft (hash_code_comitu_do_którego_chcę_cofnąć_zmiany)
+(--soft przesunie wskaźnik HEAD na commit na który zdecydowałem się wskazać)
+
+cat .git/refs/heads/master
+(zwróci inny hash_code innego commitu)
+
+- git status
+(po takiej akcji status pokaże, że jest różnica między repo a staging-iem)
+
+- git diff --stage
+(pokaże zmiany jakie sa wprowadzone przez przywrócienie drugiego commitu)
+
+
+Teraz moża zrobić commit lub np powrócić do późniejszego commitu następująco:
