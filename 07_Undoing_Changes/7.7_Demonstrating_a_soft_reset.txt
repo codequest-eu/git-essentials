@@ -22,3 +22,8 @@ cat .git/refs/heads/master
 
 
 Teraz moża zrobić commit lub np powrócić do późniejszego commitu następująco:
+
+- git reset --soft (hash_code póżniejszego commitu)
+
+- git status 
+(nothing to commit)

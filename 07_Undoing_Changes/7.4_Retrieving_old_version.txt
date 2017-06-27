@@ -8,7 +8,7 @@ Aby przywrócić zmiany wprowadzone z poprzedniej wersji
 (przywróci wersje z powyższego commita, dla pliku resources.html)
 
 - git diff --staged
-(wyświetli różnice między working directory a staging)
+(wyświetli różnice między working directory a staging )
 
 
 
