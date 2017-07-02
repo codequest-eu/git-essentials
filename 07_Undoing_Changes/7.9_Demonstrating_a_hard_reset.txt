@@ -1,0 +1,9 @@
+Hard reset przywróci working dir and staged dokładnie do takiego samego poziomu jak jest w repozytorium
+
+
+- git reset --hard 2213bc30d123a0bce    (hash_code_commitu)
+
+- git status 
+(nothing to commit - working directory clean)
+
+Dopóki nie wprowadzę zmian przez nowy commit, będę mógł cofnąć reset na commit z którego resetowałem

@@ -1,0 +1,11 @@
+- git log
+(wybieram do którego momentu chcę się cofnąć)
+- git reset --mixed da389324230bbcd206  (hash_code_commitu)
+- git status
+(zwróci info o tym, że aktualne zmiany nie są wprowdzone na staged)
+
+- git add .                 - kiedy dodam pliki do staged, będę musiał przesunąć HEAD pointer 
+- git status
+(wyświetli info: git reset HEAD <file>... to unstage)
+- git reset HEAD nazwa_pliku.html
+- git status                - teraz zmiany zostały wprowadzone 

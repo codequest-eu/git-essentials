@@ -1,0 +1,9 @@
+jeżeli stworzę jakieś pliki w projekcie których nie chcę dodawać do repo mogę zrobic to następująco
+
+(tworzę pliki)
+- git status            - zwróci info, że pliki są untracked
+
+- git clean -n          - pokazuje które pliki mogą zostać usunięte z obserowania
+
+-git clean -f           - przestanie obserwować wszystkie pliki które są untracked, 
+(jeśli jakieś pliki będą na staged to one będą dalej obserwowane, niezmiennie)
