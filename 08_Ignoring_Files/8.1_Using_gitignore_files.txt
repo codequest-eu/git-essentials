@@ -1,0 +1,13 @@
+Aby ignorować pliki w git, należy stworzyć plik .gitignore w folderze projektu
+
+- vary basic regular expressions:
+    * ? [aeiou] [0-9]
+
+- negate expressions with !
+    *.php           - będzie ignorował wszystkie pliki z rozszerzeniem .php
+    !index.php      - nie będzie ignorował pliku index.php
+
+- ignore all files in a directory with trailing slash
+    assets/videos/
+
+- comment lines begin with #, blank lines are skiped
