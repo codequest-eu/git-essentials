@@ -1,0 +1,7 @@
+Instrukcja jak ignorować pliki które są aktualnie śledzone:
+
+- (tworzę plik i dodaje go do repo)
+- w pliku .gitignore dodaje plik który stworzyłem i zdecydowałem się ignorować
+- jeśli wprowadzę teraz jakieś zmiany do pliku który dodałem do ignorowania będą one nadal rozpoznawane przez git status
+- git rm --cached tempfile2.txt         // usunie plik z obserwacji, ale zostawi rzeczywisty plik w folderze z projektem
+- teraz git status nie będzie obserował pliku
