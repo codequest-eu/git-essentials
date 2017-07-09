@@ -1,0 +1,12 @@
+What to ignore:
+    - compiled source code
+    - packages and compressed files
+    - logs and databases
+    - operating system generated files
+    - user-uploaded assets (images, PDFs, videos)
+
+More info:
+https://help.github.com/articles/ignoring-files
+https://github.com/github/gitignore             // lista co ingnorować dla poszczególnych języków programowania
+
+

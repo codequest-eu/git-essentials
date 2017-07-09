@@ -1,0 +1,11 @@
+- ignore files in all repositories
+- settings not tracked in repository
+- user-specific instead of repository-specific
+
+git config --global core.excludesfile ~/.gitignore_global
+
+Mogę storzyć globalny plik ignorowania dla wszystkich projektów, powyższy link pozwala go uruchomić z projektu w którym się znajduje
+
+Może być konieczne podanie całej ścieżki dla pliku ignorowania: 
+
+    git config --global core.excludesfile /User/documents/nazwa_projektu/.gitignore_global
