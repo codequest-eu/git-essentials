@@ -1,0 +1,29 @@
+Git pozwala na odwoływanie się po drzewie repozytorium dzięki tree-ish
+
+Specyfikacja tree-ish
+- full SHA-1 hash       (kazdy commit posiada swój unikalny ID)
+- short SHA-1 hash      (git korzysta również ze skróconej wersji unikalnych ID)
+    - at least 4 characters 
+    - unambiguous (8-10 characters)
+- HEAD pointer 
+  The head pointer remember always points to the commit that's at the tip of the 
+  currently checked out branch.
+- branch reference, tag reference
+- ancestry (pochodzenie) 
+
+
+
+Jak commitować do rodzica w drzewie commitów
+
+parent commit 
+  - HEAD^, acf87504^, master^
+  - Head~1, HEAD~
+
+grandparent commit
+  - HEAD^^, acf87504^^, master^^
+  - HEAD~2
+
+great-grandparent commit
+  - HEAD^^^, acf87504^^^, master^^^
+  - HEAD~3
+

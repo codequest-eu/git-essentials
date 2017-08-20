@@ -1,0 +1,39 @@
+w terminalu aby wyświetlić listę plików stosuje się
+
+ls -la              (ls - skrót od list)
+
+
+Podobnie ma się sprawa jeśli chcę sie wyświetlić listę commitów w git 
+
+git ls-tree <tree-ish>         
+
+DOKUMENTACJA:
+git help ls-tree
+
+
+Aby sprawidzć listę ID dla commitów, np dla HEAD:
+
+git ls-tree HEAD 
+
+lub dla master
+
+git ls-tree master
+
+
+
+Wyświetli listę wszystkich folderów, aby przejść do któregoś z folderów:
+
+git ls-tree master /03_Getting_Started
+
+
+
+Aby cofnąć się o jeden commit do tyłu i wyświetlić listę plików:
+
+git ls-tree master^ 
+
+
+
+Jeśli chcę aby wyświetlić listę commitów z danego foldera nie muszę używać jego nazwy, 
+mogę również użyć klucza SHA zamiast nazwy
+
+git ls-tree 7cb9f91f166bc60fa7085f22f0de0db2683fbf15
