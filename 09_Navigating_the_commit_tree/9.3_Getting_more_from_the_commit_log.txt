@@ -1,0 +1,52 @@
+git log       
+- wyświtla aktualne info o commitach
+
+
+git log --oneline 
+- info w jednej linii
+
+
+git log --online -3
+- info w jednej linii 3 ostatnie commity
+
+
+git log --since="2012-06-20"
+- info od określonego czasu
+
+
+git log --until="2012-06-20"
+- info do określonego czasu
+
+
+git log --since"2 weeks ago" --until="3 day ago"
+- inny format okreslania czasu
+
+
+git log --since=2.weeks --until=3.days
+- jeszcze inny format
+
+
+git log --author="brzostowski"
+- szukanie po autorze
+
+
+git log --grep="temp"
+- szukanie po pliku
+
+
+git log 2394932..2349acf2
+- wyświteli commity miedzy zakresem 
+
+
+git log c43f243.. index.html
+- wyświetli commity w które są od commitu c43f243 i dotyczą pliku index.html
+
+
+git log -p 
+- wyświetli wszystkie różnice w danym commicie
+
+
+git log -p c43f243.. index.html
+- pokaże zmiany w danym commicie dla danego pliku
+
+
