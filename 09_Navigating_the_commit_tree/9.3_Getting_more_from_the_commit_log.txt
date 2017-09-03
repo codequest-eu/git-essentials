@@ -50,3 +50,26 @@ git log -p c43f243.. index.html
 - pokaże zmiany w danym commicie dla danego pliku
 
 
+git log --stat --summary
+- wyświetli statystyki zmian dla danego commitu
+
+
+git log --format=oneline
+git log --format=short
+git log --format=medium
+git log --format=full
+git log --format=fuller
+git log --format=email
+git log --format=raw
+
+- inne rodzaje formatów które wyświetla log
+
+
+git log --graph
+- wyświetli zmiany w postaci grafu
+
+
+git log --oneline --graph  --all  --decorate
+- wyświetli zmiany za pomocą grafu w jednej lini, wszystkie, oznaczając aktualną pozycję
+
+
