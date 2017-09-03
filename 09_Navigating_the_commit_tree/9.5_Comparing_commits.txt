@@ -1,0 +1,47 @@
+aby wyświetlić różnicę miedzy working-dir a staged :
+
+  git diff --staged
+  git diff --cached         -> oba te wywołania znaczą tyle samo
+
+
+
+Aby wyświetlić różnice między obecnym dir a comitem z przeszłości:
+
+  git diff 833256c (id-commitu)
+
+
+Różnice tylko dla danego pliku:
+
+  git diff 833256c index.html
+
+
+
+W przypadku diff również można używać zakresu w jakim będą sprawdzane różnice:
+
+  git diff 833256c..23ed2112
+  - wyświetli różnice między tymi dwoma commitami
+
+
+Sprawa wygląda identycznie jeśli chodzi o konkretne pliki:
+
+  git diff 833256c..23ed2112 index.html
+
+
+
+Porównywanie z HEAD
+
+  git diff cdae0ed..HEAD
+
+
+Można również używać kombinacji:
+
+  git diff --stat --summary 1506576..HEAD
+
+  git diff -b 134124..HEAD
+    -> to samo co:
+    git diff --ignore-space-change 2322342..HEAD    (ignoruje zmany spacji)
+
+  git diff --ignore-all-space 2323123..HEAD         (ignoruje wszystkie spacje)
+    -> to samo co:
+    git diff -w 1231231..HEAD
+
