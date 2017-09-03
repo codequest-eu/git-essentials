@@ -1,0 +1,32 @@
+git show cdaeed (id-commitu)
+- wyświetli info co dokładnie dany commit zmienia
+
+dobrze używać w kombinacji:
+
+git log --oneline
+git show 2424daw200q
+
+
+Można też używać tego w następujacego konfiguracji:
+
+git show --format=oneline HEAD~3
+
+
+-------
+git help show           - dokumentacja
+-------
+
+
+
+Jeśli chcę sprawdzić jakie 'dir' znajdują się w danym commicie:
+
+git ls-tree master
+- pobieram commit który mnie interesuje:
+
+git show (hash-code danego commitu)
+
+Odwołując się po hash-code to nie jest to samo co odwoływanie się
+bezpośrednio do pliku, jak naprzykład:
+
+git show index.html
+
