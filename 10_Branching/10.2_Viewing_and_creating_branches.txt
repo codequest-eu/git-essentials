@@ -1,0 +1,27 @@
+Pokazuje wszystkie brache
+
+  git branch
+
+Aby sprawdzić gdzie znajduje się wskaźnik HEAD należy podejrzeć plik:
+
+  cat .git/HEAD
+
+Można wyświetlić listę wszystkich branch-y
+
+  ls -la .git/refs/heads
+
+Można też porównać master branch (z HEAD) w następujacy sposób:
+
+  cat .git/refs/heads/master
+
+  i 
+
+  git log --oneline
+
+Tworzenie nowego brancha
+
+  git branch new_feature
+
+Nowy branch będzie wyświetlony w liście wszystkich branchy
+
+  ls -la .git/refs/heads
