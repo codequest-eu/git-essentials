@@ -1,0 +1,5 @@
+- branches are cheap
+    - try new ideas
+    - isolate features or sections of work
+- one working direcotry
+- fast context switching
