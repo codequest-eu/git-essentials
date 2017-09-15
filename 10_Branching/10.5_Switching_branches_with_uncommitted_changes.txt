@@ -1,0 +1,21 @@
+W przypadku kiedy wprowadzę jakieś zmiany na working directory i będzę
+chciał się przełączyć na innego brancha git na to nie pozoli. 
+
+W takiej sytuacji istnieją trzy rozwiązania:
+
+1. Ściągnąć starą wersję pliku który uległ modyfikacji, np index.html
+
+  git checkout index.html
+
+2. Można też skomitować zmiany
+
+3. Można też ze stashować te zmiany wprowadzajac je tak jakby na przechowanie
+
+  - będzie to omówione później
+
+
+Przełączanie miedy branchami może odbywać się kiedy pojawi się nowy 
+plik w repo i nie stanowi on conflictu z tym co jest s-commitowane
+dlatego jeśli dodamy nowy plik a następnie przełączymy sie do innego 
+brancha ten plik w nowym branchu bedzie dalej widziany jako nie dodane 
+zmiany.

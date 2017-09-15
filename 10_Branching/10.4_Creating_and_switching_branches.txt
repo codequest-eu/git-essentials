@@ -1,0 +1,8 @@
+Pokaże zmiany które zostały wprowadzone w HEAD
+
+  git show HEAD
+
+Aby przełączyć i stworzyć nowy branch w tym samym czasie:
+
+  git checkout -b new_branch_2
+
