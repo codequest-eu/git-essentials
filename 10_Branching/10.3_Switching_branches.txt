@@ -1,0 +1,8 @@
+Aby przełączyć się na inny branch
+
+  git checkout new_feature
+
+Teraz można sprawdzić gdzie znajduje się HEAD:
+
+  cat .git/HEAD
+
