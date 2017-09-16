@@ -1,0 +1,7 @@
+Aby zmienić nazwę obecnego branch-a:
+
+  git branch -m new_feature seo_title
+
+  or 
+
+  git branch --move new_feature seo_title
