@@ -1,0 +1,39 @@
+Flow porównywania branch-y
+
+  1. Spradzam jakie są dostępne branche:
+
+      git branch 
+
+      -master
+      -new_feature
+      -shorten_title
+
+  2. Sprawdzam różnicę między branchami:
+
+      git diff master..new_feature
+
+Różnice z pierwszego brancha będą zaznaczone na czerwowon z minusem 
+a z drugiego brancha będą zaznaczone na zielona z plusem
+
+
+
+
+Opcja pozwalajaca na kolorowanie części które sie zmieniają 
+
+  git diff --color-words new_feature..shorten_title
+
+
+
+Komenda diff porównuje rożnice miedzy drzewiem three-ish,
+dlatego można skorzystać z następującego porównania:
+
+  git diff --color-white new_feature..shorten_title^
+
+
+
+Można również sprawdzić czy dany branch zawiera inny branch
+
+  git branch --merged
+
+  -> wyrzuci wszystkie branch-e które całkowicie zawierają obecny branch
+
