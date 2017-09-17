@@ -1,0 +1,32 @@
+Jeżeli mamy następującą sytuację:
+
+
+
+  master
+  <span>Git is great.</span>
+
+
+  - tworzę nowy branch            ------>               new_styles
+
+  - wprowadzam następujące zmiany: 
+
+
+  master                                                new_styles
+  <strong>Git is great.</strong>                        <em>Git is great.</em>
+
+
+
+
+Czyli konflikt powstanie wtedy kiedy w tym samym miejscu w różnych 
+branch-ach wprowadzę zmainy.
+
+
+
+W tej sytuacji jeśli coś zmerguje to zostanie wyświetlone info, że 
+aktualny merge spowoduje konflikt i należy przed zmergowanie go rozwiązać
+
+  - jeśli wykonam merge, zosane przeniesiony na pośredniczoący branch, np:
+
+    (master|MERGING)
+
+  

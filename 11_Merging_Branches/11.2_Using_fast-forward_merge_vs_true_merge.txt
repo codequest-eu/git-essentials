@@ -1,0 +1,34 @@
+Jeżeli istnieje branch odbity do mastera z różnica taką ze jest w 
+nim kilka commitów a w masterze nie ma żadnych innych commitów wyprzedzajacych
+branacha
+
+ >  jeżeli zmerguje takiego brancha nastąpi tak zwany fast-forward merge 
+    czyli coś na wzór połaczenia tego brancha bez informacji że zaszło 
+    połączenie
+
+
+Natomiast jeśli chcemy aby następujący branch z comitami dołączył do 
+mastera i ta informacja była zapisana w logu trzeba zrobić taki merge:
+
+
+  git merge --no-ff nazwa_brancha
+
+  --no-ff         - no fast-forward
+
+
+Jeśli chcemy zrobić merge w trybie ff tylko wtedy kiedy jest on możliwy,
+ale jeśli nie jest możliwy, czyli master przegania branch który chcemy 
+zmergować do mastera, wtedy nie zrobi merge
+
+  git merge --ff-only nazwa_brancha
+
+
+
+Aby wykonać true merge, który po zapisze się w logu, musi być ten branch 
+z tyłu mastera czyli master musi zawierać kilka commitów które sa nowsze
+od brancha który dodajemy do mastera.
+
+Wtedy podczas mergowania, git będzie chciał aby zostawić komentarz i 
+zotanie dodany do loga ten merge
+
+  git merge nazwa_brancha
