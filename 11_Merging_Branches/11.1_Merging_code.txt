@@ -1,0 +1,17 @@
+Aby zmergować dany branch:
+
+  - należy przełączyć się na brach do którego chce się przyłączyć zmiany  
+    np: 
+
+      git checkout master
+  
+  - następnie nalezy wykonać mergowanie:
+
+      git merge nazwa_brancha
+
+
+PRZYPOMNIENIE:
+
+aby sprawdzić listę branch-y które są zawarte w obecnym branch-u:
+
+  git branch --merged
