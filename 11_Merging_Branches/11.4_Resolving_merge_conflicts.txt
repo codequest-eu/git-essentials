@@ -1,0 +1,60 @@
+Są trzy sposoby na rozwiązanie konfliktu podczas mergowania
+
+- abort merge               -> anulowanie mergowania
+
+- resolve the conflicts manually 
+
+- use a merge tool
+
+
+
+
+1. Aby anulować mergowanie z konfliktem:
+
+    git merge --abort
+
+2. Aby rozwiązać konflikt manulanie
+
+    - tworze merge dwóch branch-y i zostaje przeniesiony na branch pośredniczący: (master|MERGING)
+    - przesukuje plik który powoduje konflikt i znajduje w nim <<<<<<HEAD jako znacznik konfliku
+    - mogę wykonać następujące flow aby upewnić się do czego były dodane te zmiany:
+
+          - sprawdzam który log jest konfliktowy: 
+
+                git log --oneline -3        (-3 trzy ostatnie linie)
+
+                git show b79f44d            (przy czym b79f44d jest commitem który chcę sprawdzić)
+    
+    - usuwam tą wersję z pliku która nie jest mi potrzebna
+    - ewentualnie wprowadzam wspólne zmiany do projektu
+
+    - następnie sprawdzam status
+
+                git status
+
+    - dodaje plik do staging
+
+                git add index.html
+
+    - wykonuje commit, ale z tego tytułu, że jest to merge, to nie muszę zostawiać wiadomości:
+
+                git commit
+
+    - wyskoczy info z message, z którego można usunąć część zawierającą info o commicie
+
+
+
+Teraz można podejrzeć zmiany na grafie:
+
+git log --graph --oneline --all --decorate
+
+
+
+
+3. Można też użyć merge tool 
+
+  git mergetool --tool="vimdiff"
+
+  aby sprawdzić listę dostępnych narzędzi:
+
+  git mergetool
