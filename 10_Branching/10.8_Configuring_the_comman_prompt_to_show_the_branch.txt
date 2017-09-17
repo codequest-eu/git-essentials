@@ -1,0 +1,37 @@
+Git pozwala na uruchominie funkcji w terminalu która będzie pokazywała 
+obecny branch w terminalu jesli przejdziemy do folderu w ktorym znajduje
+się repo git
+
+Jest to możliwe dzięki komendzie 
+
+Prompt String 1 - zwraca ona aktualną informację o obecnym directory 
+w którym się znajdujemy w terminalu
+
+sprawdzenie: 
+
+  echo $PS1
+
+
+Można ustawić wyświetlanie prompt w następujący sposób:
+
+  export PS1='>>>>'        
+
+  or
+
+  export PS1='--->'
+
+
+
+Aby uruchomić funkcję z git-a do PS1 
+
+  export PS1='$(__git_ps1 "(%s)") > '
+
+  or 
+
+  export PS1='\W$(__git_ps1 "[%s]") -->'
+
+w miejsce %s zostanie wprowadzona nazwa branch-a
+
+Jesli zamknę okno wszystkie zamiany przepadną, dlatego należy dodać 
+zmainy do .bash_profile
+
