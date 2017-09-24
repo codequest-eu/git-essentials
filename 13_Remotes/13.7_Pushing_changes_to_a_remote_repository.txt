@@ -1,0 +1,14 @@
+Aby sprawdzić różnicę miedzy lokalną wersją repo a zdalną:
+
+
+    git diff origin/master..master
+
+
+Puhowanie może odbywać sie następujący sposób:
+
+    git push origin master
+
+    lub
+
+    git push
+
