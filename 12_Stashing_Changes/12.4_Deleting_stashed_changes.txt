@@ -1,0 +1,11 @@
+Aby usunąć coś ze stash:
+
+
+    git stash drop stash@{0}
+
+
+Aby usunąć wszystkie zmiany ze stash-a:
+
+
+    git stash clear
+
