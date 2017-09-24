@@ -1,0 +1,23 @@
+Pokaże wszystkie zdalne repozytoria:
+
+  git remote
+
+Dodanie zdalnego repo:
+
+  git remote add <alias> https://github.com/sadasasas/adasdas
+  git remote add origin https://github.com/sadasasas/adasdas
+
+Sprawdzenie wersji repo 
+
+  git remote -v
+
+
+Aby sprawdzić konfigurację zdalnego repo:
+
+  cat .git/config
+
+
+Usunięcie zdalnego repo:
+
+  git remote rm <alias>                 (origin)
+
