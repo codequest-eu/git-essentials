@@ -1,0 +1,10 @@
+Klonowanie repo:
+
+    git clone https://adres.com/adasdas/adasdad/asdasda
+    >>> stworzy folder z nazwą repo
+
+    git clone https://adres.com/adasdas/adasdad/asdasda lynda_version
+    >>> stworzy projekt w folderze lynda_version
+
+    
+

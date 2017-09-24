@@ -1,0 +1,19 @@
+Aby wysłać lokalnego brancha do zdalnego repo:
+
+  git push -u origin <nazwa_brancha>
+
+Aby podejrzeć zdalne branch-e:
+
+  ls -la .git/refs/remotes/origin
+
+  cat .git/refs/remotes/origin/master
+
+
+Aby wyświetlić listę branch-y zdalnych
+
+  git branch -r
+
+
+Wszystkie branch-e:
+
+  git branch -a
