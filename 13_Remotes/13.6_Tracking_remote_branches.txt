@@ -1,0 +1,24 @@
+Aby śledzić zmiany wprowadzane do repozytorium należy ustawić obserwację 
+brancha-a w momencie kiedy wysłany jest do zdalnego repo,
+jeśli tego nie zrobimy, branch zostanie wysłany, ale nie będzie śledzony
+
+
+    git push origin non_tracking 
+
+    cat .git/congig       - nie wyświetli tego brancha w spisie branchy remote
+
+Aby włączyć sledzenie branch-a w momencie kiedy zrobiło się pushowane bez śledzenia:
+
+
+    git config branch.non_tracking.remote origin
+
+    and
+
+    git config branch.non_tracking.merge refs/heads/master
+
+
+
+LUB
+
+
+git branch --set-upstream non_tracking origin/non_tracking
