@@ -1,0 +1,18 @@
+push              - wrowadzenie zmian do remote-server
+
+
+origin/master     - reprezentacja remote-server lokalnie na komputerze użytkownika
+
+
+fetch             - pobieranie zmian z remote-server do origin/master
+>
+>
+>
+> jeśli wykonam fetch do origin/master trzeba zrobić merge do mastera 
+
+
+
+Dzieje się tak dlatego, bo przy pracy z remote-server występuje coś 
+takiego jak dodatkowy wskaźnik: HEAD: origin/master, który wskazuje 
+na ten sam commit na którym jest HEAD: master w repo umieszczonym na 
+remote-server 
