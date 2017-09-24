@@ -1,0 +1,13 @@
+Pobranie danych ze zdalnego repo:
+
+  git fetch
+
+
+
+TIPS:
+
+  - fetch before you work
+  - fetch before you push
+  - fetch often
+
+  
