@@ -1,0 +1,9 @@
+FLOW: 
+
+  - git branch -a
+  - git diff origin/master..master
+  - git merge origin/master
+  - git log --oneline -3
+
+
+git pull = git fetch + git merge
