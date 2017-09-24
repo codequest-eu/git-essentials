@@ -1,0 +1,12 @@
+Aby przywrócić zmiany ze stash-a
+
+    git stash pop stash@{0}         - wprowadzi zmiany na working dir i usunie wersje ze stasha
+
+
+    or 
+
+
+    git stahs apply stash@{0}       - wprowadzi zmiany na wroking dir ale nie usunie zmian ze stasha
+
+
+Po wykonaniu przywrócenia zmain ze stash-a można bez problemu wysłać jeszcze raz te same zmiany na stash-a

@@ -1,0 +1,22 @@
+Aby podejrzeć zmiany wprowadzone do stash-a :
+
+
+    git stash list
+
+    > wyświetli lis†ę zmian wprowadzonych do stash-a
+
+      stash@{0}: On shorten_title: changed mission page shorten_title
+                 - nazwa brancha   - user message
+
+
+Aby wyświetlić szczegółowe informacje dotyczące pojedyńczego stash-a:
+
+
+    git stash show stash@{0}      - zwykłe zmiany
+
+    lub
+
+    git stahs show -p stash@{0}   - patch, pokaże konkretne miejsce gdzie wprowadzone są zmiany
+
+
+
