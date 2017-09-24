@@ -1,0 +1,17 @@
+Github
+  - http://github.com
+
+  
+
+  Czyste repo i update do github-a:
+
+    git init 
+    git add Readme.md
+    git commit -m "first commit"
+    git remote add origin gti@github.com:asdadasdadadadada
+    git push -u origin master
+
+  Istniejące repo 
+
+    git remote add origin gti@github.com:asdadasdadadadada
+    git push -u origin master
