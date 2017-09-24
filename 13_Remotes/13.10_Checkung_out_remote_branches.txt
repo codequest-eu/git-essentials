@@ -1,0 +1,14 @@
+Aby stworzyć brancha od razu w repo zdalnym 
+
+      git branch non_tracking origin/non_tracking
+
+Teraz można usunąć wersję lokalną, jednak zostanie wersja w repo zdalnym:
+
+      git branch -d non_tracking
+
+Ale jak zostanie usunięta ta wersja można teraz pobrać aktualną wersję z repo zdalnego
+i stworzyć swoją kopie w repo lokalnym:
+
+
+      git checkout -b non_tracking origin/non_tracking
+
