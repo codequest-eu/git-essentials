@@ -1,0 +1,19 @@
+Stash pozwala na przechowywanie danych tymczasowych
+
+Jest to specjalna strafa git oddzielna od pozostałych przestrzeni
+
+FLOW:
+  - przełączam się na jakiś branch
+  - wprowadzam zmiany 
+  - chcę znowu wrócić na poprzedni branch, nie mogę tego zrobić bez wcześniejszego zacommitowania zmian
+  - w tym przypadku mogę wprowadzić zmiany do stash-u
+
+  - dodaję zmiany do stash:
+
+        git stash save "message"
+
+  - git log --oneline
+
+        c091faf Swap out - for : in index.html title
+
+  
