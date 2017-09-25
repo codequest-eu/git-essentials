@@ -1,0 +1,8 @@
+Git Hosting Companies:
+  - GitHub
+  - Bitbucket
+  - Gitorious
+
+Git Self-Hosting:
+  - Gitosis
+  - Gitolite
