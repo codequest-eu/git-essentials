@@ -1,0 +1,3 @@
+Kiedy będę chciał zrobić push na brancha który aktualnie wyprzedza 
+moją lokalną kopie, najpierw muszę wykonać pull (lub fetch/merge)
+i dopiero mogę mergować swoją wersję
