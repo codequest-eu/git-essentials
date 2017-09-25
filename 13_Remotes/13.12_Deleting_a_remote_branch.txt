@@ -1,0 +1,31 @@
+Aby usunąć branch z remote-server:
+
+    git push origin :nazwa_brancha
+
+Wystarczy dodać jedynie : przed nazwą brancha 
+To spowoduje, że lokalna kopia zostanie a wersja zdalna zostanie usunięta
+
+Dzieje się tak dlatego, że normalne pushowanie, które wygląda następujaco:
+
+    git push origin non_tracking 
+
+to tak naprawdę skrócona forma następującego zapisu:
+
+    git push origin non_tracking:non_tracking
+
+    >>> gdzie pierwsza nazwa brancha przed : odnosi się od lokalnego brancha
+    >>> a druga do zdalnego
+
+To powoduje, że jeżeli zostanie wysłana nastepująca komenda:
+
+    git push origin :non_tracking
+
+to zostanie zdalna wersja brancha zostanie zastąpiona pustką
+
+
+
+
+
+Można również użyć nowej wersji usuwania:
+
+    git push origin --delete non_tracking
