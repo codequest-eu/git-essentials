@@ -1,0 +1,4 @@
+Aby dodać użytkowników do repo należy zaprosić do collaboracji w ustawieniach
+projektu w githubie lub gitlabie lub gdzie kolwiek inndziej gdzie repo jest trzymane
+
+Następnie warto korzystać z Pull requestów
